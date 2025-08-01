@@ -25,6 +25,12 @@ Most of the core logic comes from there, but I’ve made some changes and custom
 
 ---
 
+## Additional Features
+
+- Custom background selection (experimental) — see [feature/custom-background](https://github.com/rxy4ou/Space_invader_game/tree/feature/custom-background) branch.
+  
+---
+
 ## Assets & Credits
 
 ### Graphics

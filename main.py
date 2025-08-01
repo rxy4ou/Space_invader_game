@@ -3,6 +3,27 @@ import math
 import random 
 from pygame import mixer 
 
+
+def background_choose():
+    try:
+        back=int(input('''which Background you want ?
+                            1.anime space theme
+                            2.normal version 
+choose one of them : '''))
+        if back == 1 :
+            print('Welcome to the game!')
+            return 'background2.png'
+        else :
+            print('Welcome to the game!')
+            return 'background1.png'
+    except:
+        print('Welcome to the game!')
+        return 'background1.png'
+# if any error  happen in choosing background then defult background will run .
+       
+choose_back=background_choose()
+
+
 # initilization the pygame 
 pygame.init()
 
@@ -10,8 +31,9 @@ pygame.init()
 screen= pygame.display.set_mode((800,600)) # (x,y) in 4th quadrants
 
 # background 
-backImg1= pygame.image.load('background1.png')
-backImg2= pygame.image.load('background2.png')
+#backImg1= pygame.image.load('background1.png')
+#backImg2= pygame.image.load('background2.png')
+backImg= pygame.image.load(choose_back)
 
 # backgorund sound
 mixer.music.load('sb_indreams.mp3')
@@ -98,7 +120,7 @@ while running:
 
     # screen color , RGB - red green blue
     screen.fill((0,0,0)) 
-    screen.blit(backImg1,(0,0)) 
+    screen.blit(backImg,(0,0)) 
 
     # playerX += 0.2
     

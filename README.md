@@ -76,6 +76,6 @@ Commercial licenses available via odiadme@hotmail.com
 All original source code in this project is released under [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).  
 This means you can use, modify, and share the code freely — without asking for permission or giving credit.
 
-**Note**:  
+### **Note**:  
 Some files (images, music, sounds, and fonts) are from third-party sources and require attribution as listed above.  
 These assets are **not** covered by the CC0 license and retain their original copyright.
